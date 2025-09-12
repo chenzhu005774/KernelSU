@@ -156,7 +156,7 @@ name: Build Ksud
 
 on:
   push:
-    branches: [ "main", "manager" ]
+    branches: [ "main", "cl2" ]
     paths:
       - '.github/workflows/build-manager.yml'
       - 'manager/**'
